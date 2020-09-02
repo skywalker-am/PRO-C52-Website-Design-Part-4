@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Portfolio Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="portName-menu">
+                <div>
+                    <img src="images/skylogo.png" alt="logo">
+                    <h1 class="portName"><span>S</span>ky<span>W</span>alker</h1>
+                </div>
+                <div class="link-block">
+                    <a href="#">Services</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Get in touch</a>
+                </div>
+            </div>
+            <div class="header-content">
+                <h1>Passion For Design and Creativity.</h1>
+                <p>Delivering premium designs and services for the best price.</p>
+            </div>
+        </div>
+
+        <div class="backgroundBlueAnimate">
+            <div class="wrapper grid">
+                <div class="item">
+                    <div class="itemTitle title">DevOps</div>
+                    <div class="itemDesc description">Build multi-node Swarm clusters and deploying H/A containers.</div>
+                    <div class="itemInner">
+                        <button>Learn More</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemTitle title">Development</div>
+                    <div class="itemDesc description">Develop and deploy scalable and efficient apps/websites</div>
+                    <div class="itemInner">
+                        <button>Learn More</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemTitle title">A.I.</div>
+                    <div class="itemDesc description">Make a virtual Self Driving Car. Make an AI to beat games</div>
+                    <div class="itemInner">
+                        <button>Learn More</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="testimonialwrapper">
+            <div class="innerTestContainer wrapper">
+                <div class="prevTest">
+                    <span class="prevTestArrow arrow"></span>
+                    <span class="prevnameTrigger nameTrigger">Sudhir Kumbhar</span>
+                </div>
+                <ul class="testListUL">
+                    <li class="testListLI">
+                        <div class="testimentMain">
+                            <div class="imgNameDesig">
+                                <div class="imgLi">
+                                    <img class="imgLiInner" src="images/mohit_techmo.jpg">
+                                </div>
+                                <div class="nameDesig">
+                                    <span class="nameLi">Sudhir Kumbhar</span>
+                                    <span class="desigLi">Associate Project Manager at Lionbridge</span>
+                                </div>
+                            </div>
+                            <div class="msgLi">
+                                Richard is multi-talented. His research techniques is at par and the way
+                                he presents himself in front of the audience is something worth watching. 
+                                He will be a great asset to any team/company where he will be working in future. 
+                                A true team player and a performer too.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="testListLI">
+                        <div class="testimentMain">
+                            <div class="imgNameDesig">
+                                <div class="imgLi">
+                                    <img class="imgLiInner" src="images/mohit_techmo.jpg">
+                                </div>
+                                <div class="nameDesig">
+                                    <span class="nameLi">Sudhir Kumbhar</span>
+                                    <span class="desigLi">Associate Project Manager at Lionbridge</span>
+                                </div>
+                            </div>
+                            <div class="msgLi">
+                                Richard is multi-talented. His research techniques is at par and the way
+                                he presents himself in front of the audience is something worth watching. 
+                                He will be a great asset to any team/company where he will be working in future. 
+                                A true team player and a performer too.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="testListLI">
+                        <div class="testimentMain">
+                            <div class="imgNameDesig">
+                                <div class="imgLi">
+                                    <img class="imgLiInner" src="images/mohit_techmo.jpg">
+                                </div>
+                                <div class="nameDesig">
+                                    <span class="nameLi">Sudhir Kumbhar</span>
+                                    <span class="desigLi">Associate Project Manager at Lionbridge</span>
+                                </div>
+                            </div>
+                            <div class="msgLi">
+                                Richard is multi-talented. His research techniques is at par and the way
+                                he presents himself in front of the audience is something worth watching. 
+                                He will be a great asset to any team/company where he will be working in future. 
+                                A true team player and a performer too.
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="nextTest">
+                    <span class="nextTestArrow arrow"></span>
+                    <span class="nextnameTrigger nameTrigger">Gaurang Mohite</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="chatScreenContainer">
+            <canvas id="chatBackground" width="1366" height="389"></canvas>
+            <div class="chatScreenContent wrapper">
+                <div class="chatScreenMessages">
+                    <span>
+                        <div class="msgDiv userDiv">
+                            <span class="userMessage">Work going on the API (maintenance)</span>
+                        </div>
+                        <div class="msgDiv">
+                            <span class="myMessage">You can add messages though... just for fun</span>
+                        </div>
+                        <div>
+                            <span></span>
+                        </div>
+                        <div>
+                            <span></span>
+                        </div>
+                        <div>
+                            <span></span>
+                        </div>
+                    </span>
+                </div>
+                <div class="chatScreenInput">
+                    <form class="input-group">
+                        <input placeholder="Enter your message here..." class="form-control">
+                        <button type="submit" class="btn btn-secondary"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="https://www.facebook.com/">
+                <img src = "fb.png" width = 50 height = 50/>
+            </a>
+
+            <a href="https://www.instagram.com/">
+                <img src = "insta.png" width = 50 height = 50/>
+            </a>
+
+            <a href="https://www.youtube.com/">
+                <img src = "youtube.png" width = 50 height = 50/>
+            </a>
+        </div>
+
+        <script src="bundle.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
+        <script>
+            bubbly({
+                colorStart: "#4c004c",
+                colorStop: "#1a001a",
+                canvas: document.querySelector("#chatBackground"),
+                bubbles: 500,
+                radiusFunc: () => 0.25 + Math.random() * 15 ,// default is 1 + Math.random() * width / 25
+                velocityFunc: () => 1 + Math.random() * 1, // default is this
+                bubbleFunc: () => `hsla(${Math.random() * 360}, 100%, 50%, ${Math.random() * 0.25})`
+            });
+        </script>
+    </body>
+</html>
+
+
+<!--<div class="powr-chat" id="2e8c1af1_1598919080"></div>
+<script src="https://www.powr.io/powr.js?platform=html"></script>-->
